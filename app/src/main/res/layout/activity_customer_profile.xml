@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerProfile">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+
+        >
+
+
+        <TextView
+            android:id="@+id/cProfileHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20dp"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <TextView
+            android:id="@+id/cProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/cProfileNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brandon Lawrence"
+            android:paddingTop="50dp"
+            android:paddingLeft="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="180dp"
+
+        >
+
+        <TextView
+            android:id="@+id/cProfileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/cProfileEmailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lawrb123@googlemail.com"
+
+            android:paddingLeft="10dp"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="255dp"
+
+        >
+
+        <TextView
+            android:id="@+id/cProfileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: "
+
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/cProfileNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="078231212"
+
+            android:paddingLeft="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <Button
+            android:id="@+id/cProfileMainMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="Main Menu"
+
+
+            />
+        <Button
+            android:id="@+id/cSignOutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="Sign Out"
+
+
+            />
+        <Button
+            android:id="@+id/cProfileBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="Back"
+
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
